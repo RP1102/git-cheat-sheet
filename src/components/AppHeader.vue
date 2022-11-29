@@ -19,31 +19,32 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .header{
+  z-index: 2;
   height: 75px;
   padding: 10px;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  .img-full{display: none;}
+  
+  .menu-btn{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .menu-btn-part{
+      width: 100%;
+      height: 5px;
+      background-color: #2F2D2A;
+      border-radius: 2px;
+    }
+  }
 }
-.img-full{display: none;}
-
-.menu-btn{
-  width: 32px;
-  height: 32px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.menu-btn-part{
-  width: 100%;
-  height: 5px;
-  background-color: #2F2D2A;
-  border-radius: 2px;
-}
-
+  
 
 /* À REVOIR */
 @media screen and (min-width: 900px){

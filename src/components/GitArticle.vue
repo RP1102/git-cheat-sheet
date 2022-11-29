@@ -35,29 +35,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .git-article{
     padding: 20px;
     max-width: 600px;
-}
-.git-article p{
-  word-break: keep-all;
-  text-align: justify;
-}
-.bold{
-  font-weight: 600;
-}
-.callout{
-  border: 1px solid #F7F7F7;
-  background-color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  border-radius: 12px;
-  padding: 5px 15px;
-}
-code{
-  background-color: lightgrey;
-  padding: 3px 6px;
-  border-radius: 4px;
-  font-style: italic;
-}
+
+    p{
+      word-break: keep-all;
+      text-align: justify;
+    }
+    .bold{
+      font-weight: 600;
+    }
+    .callout{
+      border: 1px solid #F7F7F7;
+      background-color: white;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      border-radius: 12px;
+      padding: 5px 15px;
+    }
+    
+    code{
+      background-color: lightgrey;
+      padding: 3px 6px;
+      border-radius: 4px;
+      font-style: italic;
+    }
+  }
 </style>
